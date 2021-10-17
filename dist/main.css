@@ -91,3 +91,18 @@
     background: #ea91b0!important;
     color: #444;
 }
+.hidden{
+    display: none;
+}
+.message{
+    position: absolute;
+    top: 0;
+    font-size: 1.3rem;
+    color: #22cc39;
+    padding: 1rem;
+}
+.point{
+    background: rgb(224, 20, 133);
+    padding: 0.6rem;
+    border-radius: 10px;
+}
