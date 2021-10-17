@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,42 @@
     <link rel="stylesheet" href="main.css">
     <title>Pig Game</title>
 </head>
+
 <body>
     <main id="main">
-        <section id="player-1"></section>
-        <section id="player-1"></section>
+        <div class="message"></div>
+        <div class="game-container">
+            <button id="new-game">🔄 New Game</button>
+            <button id="roll-dice">🎲 Roll Dice</button>
+            <button id="hold">✔ Hold</button>
+            <img src="dice-1.png" id="img" alt="">
+            <section id="player-1" class="active">
+                <div>
+                    <h2>Player 1</h2>
+                <p id="pl-1-point">0</p>
+                </div>
+                <div>
+                    <h3>current</h3>
+                <p id="current-pl1">0</p>
+                </div>
+                
+            </section>
+            <section id="player-2">
+                <div>
+                    <h2>Player 2</h2>
+                <p id="pl-2-point">0</p>
+                </div>
+                <div>
+                    <h3>current</h3>
+                <p id="current-pl2">0</p>
+                </div>
+                
+            </section>
+        </div>
+
     </main>
 
     <script src="main.js"></script>
 </body>
+
 </html>

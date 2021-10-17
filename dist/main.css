@@ -6,3 +6,88 @@
     list-style-type: none;
 }
 
+#main{
+    background: linear-gradient(to right bottom,#de5181  , #941c44 );
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container{
+    width: 80vw;
+    height: 70vh;
+    background: #e26691;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 7px #e26691;
+    display: flex;
+    justify-content: center;
+}
+#player-1{
+    background: #e26691;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+#player-2{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #e26691;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+#new-game{
+    position: absolute;
+    top: 2rem;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* right: 50%; */
+}
+#roll-dice{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5rem;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    /* right: 50%; */
+}
+#hold{
+    cursor: pointer;
+    position: absolute;
+    bottom: 2rem;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    /* right: 50%; */
+}
+#img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    align-self: center;
+}
+.active{
+    background: #ea91b0!important;
+    color: #444;
+}
